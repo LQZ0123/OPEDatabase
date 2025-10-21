@@ -5,17 +5,20 @@ The operation process of the basic information query function is as follows: Fir
 flame retardant in the Lookup section. Click the Lookup button to query the basic information of the compound in the database, including its chemical formula and hazard 
 properties. The structural formula of the compound will be displayed in the Structure section simultaneously. If you need to obtain extended information about the compound, 
 such as InChI and XLogP, click the PubChem button to achieve this.
+
 The mass spectrometry query function can only be operated on the basis of completing the basic information query, so as to obtain the mass spectrometry information of the 
 target pollutant. This function supports the selection of two modes: LC and GC, with the LC mode selected by default. Click the MS1 button, and the system will reconstruct 
 the primary mass spectrum through the isotope distribution algorithm, and display the corresponding mass spectrum image in the MS1 section. Click the MS2 button, and the 
 secondary mass spectrum corresponding to the compound will be queried in the organophosphate flame retardant mass spectrometry database, and the query results will be 
 presented in the form of an image in the MS2 section.
+
 In the OPEDatabase software, click the “Tool-Similarity” option, and the "Similarity Check" interface will pop up. During operation, first enter the structural information of 
 the potential organophosphate flame retardant in the blank area of the interface (in SMILES format). Then select the candidate structure type corresponding to the target 
 substance from the three categories: “Product”, “Transformation Product” and “Unknown”. After completing the settings, click the “OK” button. The program will automatically 
 map the input SMILES and the SMILES of the candidate structure into molecular fingerprint information respectively. Then, the Tanimoto method is used to calculate and score 
 the structural similarity between the two. Finally, the candidates are sorted in descending order of similarity score, so as to realize the accurate sorting function of 
 candidate structure similarity.
+
 In the OPEDatabase software, click the “Tool-Library Searching” option, and the “Library Searching” interface will pop up. The operation process is as follows: First, enter 
 the mass spectrometry information of the potential organophosphate flame retardant in the blank area of the interface (in SMILES format), and click “Next” to enter the next-
 level setting interface. In this interface, you can enter the accurate mass of the parent ion and information related to the chemical formula, and then select the mass 
